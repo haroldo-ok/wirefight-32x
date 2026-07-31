@@ -1,0 +1,597 @@
+Archive member included to satisfy reference by file (symbol)
+
+/tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_ashiftrt.o)
+                              build-test/wf.o (___ashiftrt_r4_11)
+/tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_ashiftrt_n.o)
+                              build-test/gfx.o (___ashrsi3)
+/tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_ashiftlt.o)
+                              build-test/sound.o (___ashlsi3_r0)
+/tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_lshiftrt.o)
+                              build-test/sound.o (___lshrsi3_r0)
+/tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_movmem.o)
+                              build-test/wf.o (___movmemSI12)
+/tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_sdivsi3.o)
+                              build-test/gfx.o (___sdivsi3)
+/tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivsi3.o)
+                              build-test/sound.o (___udivsi3)
+/tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o)
+                              build-test/sound.o (___divdi3)
+/tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivdi3.o)
+                              build-test/sound.o (___udivdi3)
+/tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udiv_qrnnd_16.o)
+                              /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o) (___udiv_qrnnd_16)
+/tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_clz.o)
+                              /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o) (___clz_tab)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 build-test/crt0.o
+ .bss           0x0000000000000000        0x0 build-test/crt0.o
+ .text          0x0000000000000000        0x0 build-test/marsl.o
+ .data          0x0000000000000000        0x0 build-test/marsl.o
+ .bss           0x0000000000000000        0x0 build-test/marsl.o
+ .text.Mars_FramebuffersFlipped
+                0x0000000000000000       0x1c build-test/marsl.o
+ .text.Mars_BackBuffer
+                0x0000000000000000        0xc build-test/marsl.o
+ .text.Mars_FrameBufferLines
+                0x0000000000000000        0xc build-test/marsl.o
+ .text.Mars_FillBusy
+                0x0000000000000000       0x10 build-test/marsl.o
+ .text.Mars_FillLine
+                0x0000000000000000       0x60 build-test/marsl.o
+ .text.Mars_WaitTicks
+                0x0000000000000000       0x14 build-test/marsl.o
+ .text          0x0000000000000000        0x0 build-test/gfx.o
+ .data          0x0000000000000000        0x0 build-test/gfx.o
+ .bss           0x0000000000000000        0x0 build-test/gfx.o
+ .text          0x0000000000000000        0x0 build-test/font.o
+ .data          0x0000000000000000        0x0 build-test/font.o
+ .bss           0x0000000000000000        0x0 build-test/font.o
+ .text          0x0000000000000000        0x0 build-test/sintab.o
+ .data          0x0000000000000000        0x0 build-test/sintab.o
+ .bss           0x0000000000000000        0x0 build-test/sintab.o
+ .text          0x0000000000000000        0x0 build-test/data.o
+ .data          0x0000000000000000        0x0 build-test/data.o
+ .bss           0x0000000000000000        0x0 build-test/data.o
+ .text          0x0000000000000000        0x0 build-test/sound.o
+ .data          0x0000000000000000        0x0 build-test/sound.o
+ .bss           0x0000000000000000        0x0 build-test/sound.o
+ .text          0x0000000000000000        0x0 build-test/wf.o
+ .data          0x0000000000000000        0x0 build-test/wf.o
+ .bss           0x0000000000000000        0x0 build-test/wf.o
+ .text          0x0000000000000000        0x0 build-test/main.o
+ .data          0x0000000000000000        0x0 build-test/main.o
+ .bss           0x0000000000000000        0x0 build-test/main.o
+ .data          0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_ashiftrt.o)
+ .bss           0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_ashiftrt.o)
+ .data          0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_ashiftrt_n.o)
+ .bss           0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_ashiftrt_n.o)
+ .data          0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_ashiftlt.o)
+ .bss           0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_ashiftlt.o)
+ .data          0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_lshiftrt.o)
+ .bss           0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_lshiftrt.o)
+ .data          0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_movmem.o)
+ .bss           0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_movmem.o)
+ .data          0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_sdivsi3.o)
+ .bss           0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_sdivsi3.o)
+ .data          0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivsi3.o)
+ .text          0x0000000000000000      0x26c /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o)
+ .data          0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o)
+ .bss           0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o)
+ .data          0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udiv_qrnnd_16.o)
+ .bss           0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udiv_qrnnd_16.o)
+ .text          0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_clz.o)
+ .bss           0x0000000000000000        0x0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_clz.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000002000000 0x0000000000400000 xr
+ram              0x0000000006000000 0x000000000003fc00 xw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build-test/crt0.o
+LOAD build-test/marsl.o
+LOAD build-test/gfx.o
+LOAD build-test/font.o
+LOAD build-test/sintab.o
+LOAD build-test/data.o
+LOAD build-test/sound.o
+LOAD build-test/wf.o
+LOAD build-test/main.o
+LOAD /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a
+                0x0000000000000000                __DYNAMIC = 0x0
+                [!provide]                        PROVIDE (__stack = 0x603fc00)
+
+.text           0x0000000002000000     0x4a50 load address 0x0000000000000000
+                0x0000000002000000                __text_start = .
+ *(.text)
+ .text          0x0000000002000000      0xad8 build-test/crt0.o
+                0x0000000002000ad8                _start
+ .text          0x0000000002000ad8       0x52 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_ashiftrt.o)
+                0x0000000002000ad8                ___ashiftrt_r4_31
+                0x0000000002000ad8                ___ashiftrt_r4_32
+                0x0000000002000ade                ___ashiftrt_r4_30
+                0x0000000002000ae0                ___ashiftrt_r4_29
+                0x0000000002000ae2                ___ashiftrt_r4_28
+                0x0000000002000ae4                ___ashiftrt_r4_27
+                0x0000000002000ae6                ___ashiftrt_r4_26
+                0x0000000002000ae8                ___ashiftrt_r4_25
+                0x0000000002000aea                ___ashiftrt_r4_24
+                0x0000000002000af2                ___ashiftrt_r4_23
+                0x0000000002000af4                ___ashiftrt_r4_22
+                0x0000000002000af6                ___ashiftrt_r4_21
+                0x0000000002000af8                ___ashiftrt_r4_20
+                0x0000000002000afa                ___ashiftrt_r4_19
+                0x0000000002000afc                ___ashiftrt_r4_18
+                0x0000000002000afe                ___ashiftrt_r4_17
+                0x0000000002000b00                ___ashiftrt_r4_16
+                0x0000000002000b06                ___ashiftrt_r4_15
+                0x0000000002000b08                ___ashiftrt_r4_14
+                0x0000000002000b0a                ___ashiftrt_r4_13
+                0x0000000002000b0c                ___ashiftrt_r4_12
+                0x0000000002000b0e                ___ashiftrt_r4_11
+                0x0000000002000b10                ___ashiftrt_r4_10
+                0x0000000002000b12                ___ashiftrt_r4_9
+                0x0000000002000b14                ___ashiftrt_r4_8
+                0x0000000002000b16                ___ashiftrt_r4_7
+                0x0000000002000b18                ___ashiftrt_r4_6
+                0x0000000002000b1a                ___ashiftrt_r4_5
+                0x0000000002000b1c                ___ashiftrt_r4_4
+                0x0000000002000b1e                ___ashiftrt_r4_3
+                0x0000000002000b20                ___ashiftrt_r4_2
+                0x0000000002000b22                ___ashiftrt_r4_1
+                0x0000000002000b26                ___ashiftrt_r4_0
+ *fill*         0x0000000002000b2a        0x2 
+ .text          0x0000000002000b2c       0x80 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_ashiftrt_n.o)
+                0x0000000002000b2c                ___ashrsi3
+ .text          0x0000000002000bac       0xbc /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_ashiftlt.o)
+                0x0000000002000bac                ___ashlsi3
+                0x0000000002000bb0                ___ashlsi3_r0
+ .text          0x0000000002000c68       0xbc /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_lshiftrt.o)
+                0x0000000002000c68                ___lshrsi3
+                0x0000000002000c6c                ___lshrsi3_r0
+ .text          0x0000000002000d24       0x78 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_movmem.o)
+                0x0000000002000d24                ___movstr
+                0x0000000002000d24                ___movmem
+                0x0000000002000d58                ___movmemSI64
+                0x0000000002000d58                ___movstrSI64
+                0x0000000002000d5c                ___movstrSI60
+                0x0000000002000d5c                ___movmemSI60
+                0x0000000002000d60                ___movmemSI56
+                0x0000000002000d60                ___movstrSI56
+                0x0000000002000d64                ___movstrSI52
+                0x0000000002000d64                ___movmemSI52
+                0x0000000002000d68                ___movstrSI48
+                0x0000000002000d68                ___movmemSI48
+                0x0000000002000d6c                ___movstrSI44
+                0x0000000002000d6c                ___movmemSI44
+                0x0000000002000d70                ___movstrSI40
+                0x0000000002000d70                ___movmemSI40
+                0x0000000002000d74                ___movstrSI36
+                0x0000000002000d74                ___movmemSI36
+                0x0000000002000d78                ___movmemSI32
+                0x0000000002000d78                ___movstrSI32
+                0x0000000002000d7c                ___movmemSI28
+                0x0000000002000d7c                ___movstrSI28
+                0x0000000002000d80                ___movstrSI24
+                0x0000000002000d80                ___movmemSI24
+                0x0000000002000d84                ___movmemSI20
+                0x0000000002000d84                ___movstrSI20
+                0x0000000002000d88                ___movstrSI16
+                0x0000000002000d88                ___movmemSI16
+                0x0000000002000d8c                ___movmemSI12
+                0x0000000002000d8c                ___movstrSI12
+                0x0000000002000d90                ___movmemSI8
+                0x0000000002000d90                ___movstrSI8
+                0x0000000002000d94                ___movmemSI4
+                0x0000000002000d94                ___movstrSI4
+ .text          0x0000000002000d9c       0xa0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_sdivsi3.o)
+                0x0000000002000d9c                ___sdivsi3
+ .text          0x0000000002000e3c       0x6c /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivsi3.o)
+                0x0000000002000e5e                ___udivsi3
+ .text          0x0000000002000ea8      0x25c /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivdi3.o)
+                0x0000000002000ea8                ___udivdi3
+ *fill*         0x0000000002001104        0x4 
+ .text          0x0000000002001108       0x60 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udiv_qrnnd_16.o)
+                0x0000000002001108                ___udiv_qrnnd_16
+ *(.text.*)
+ .text.Mars_Init
+                0x0000000002001168       0x18 build-test/marsl.o
+                0x0000000002001168                _Mars_Init
+ .text.Mars_WaitFrameBuffersFlip
+                0x0000000002001180       0x1c build-test/marsl.o
+                0x0000000002001180                _Mars_WaitFrameBuffersFlip
+ .text.Mars_FlipFrameBuffers
+                0x000000000200119c       0x2c build-test/marsl.o
+                0x000000000200119c                _Mars_FlipFrameBuffers
+ .text.Mars_InitLineTable
+                0x00000000020011c8       0x44 build-test/marsl.o
+                0x00000000020011c8                _Mars_InitLineTable
+ .text.Mars_InitVideo
+                0x000000000200120c       0x8c build-test/marsl.o
+                0x000000000200120c                _Mars_InitVideo
+ .text.Mars_SetPalette
+                0x0000000002001298        0xc build-test/marsl.o
+                0x0000000002001298                _Mars_SetPalette
+ .text.Mars_WaitFill
+                0x00000000020012a4       0x10 build-test/marsl.o
+                0x00000000020012a4                _Mars_WaitFill
+ .text.Mars_ClearScreen
+                0x00000000020012b4       0x5c build-test/marsl.o
+                0x00000000020012b4                _Mars_ClearScreen
+ .text.cs_code  0x0000000002001310       0x26 build-test/gfx.o
+ *fill*         0x0000000002001336        0x2 
+ .text.plot     0x0000000002001338       0x44 build-test/gfx.o
+ .text.gfx_rand
+                0x000000000200137c       0x2c build-test/gfx.o
+                0x000000000200137c                _gfx_rand
+ .text.gfx_srand
+                0x00000000020013a8       0x10 build-test/gfx.o
+                0x00000000020013a8                _gfx_srand
+ .text.gfx_pset
+                0x00000000020013b8        0xc build-test/gfx.o
+                0x00000000020013b8                _gfx_pset
+ .text.gfx_pset_abs
+                0x00000000020013c4       0x3c build-test/gfx.o
+                0x00000000020013c4                _gfx_pset_abs
+ .text.gfx_line
+                0x0000000002001400      0x1d0 build-test/gfx.o
+                0x0000000002001400                _gfx_line
+ .text.gfx_rect
+                0x00000000020015d0       0xdc build-test/gfx.o
+                0x00000000020015d0                _gfx_rect
+ .text.gfx_rectb
+                0x00000000020016ac       0x6c build-test/gfx.o
+                0x00000000020016ac                _gfx_rectb
+ .text.gfx_text
+                0x0000000002001718       0x9c build-test/gfx.o
+                0x0000000002001718                _gfx_text
+ .text.gfx_bigtext
+                0x00000000020017b4      0x13c build-test/gfx.o
+                0x00000000020017b4                _gfx_bigtext
+ .text.nz       0x00000000020018f0       0x2c build-test/sound.o
+ .text.bgm_set  0x000000000200191c       0x30 build-test/sound.o
+ .text.voice_render
+                0x000000000200194c       0x40 build-test/sound.o
+ .text.snd_init
+                0x000000000200198c       0x8c build-test/sound.o
+                0x000000000200198c                _snd_init
+ .text.snd_bgm  0x0000000002001a18       0x14 build-test/sound.o
+                0x0000000002001a18                _snd_bgm
+ .text.snd_play
+                0x0000000002001a2c       0x20 build-test/sound.o
+                0x0000000002001a2c                _snd_play
+ .text.snd_slave
+                0x0000000002001a4c      0x56c build-test/sound.o
+                0x0000000002001a4c                _snd_slave
+ .text.fixdiv   0x0000000002001fb8       0x2c build-test/wf.o
+ .text.fixsin   0x0000000002001fe4       0x78 build-test/wf.o
+ .text.vadd     0x000000000200205c       0x1a build-test/wf.o
+ .text.vdot     0x0000000002002076       0x2a build-test/wf.o
+ .text.vcross   0x00000000020020a0       0x4e build-test/wf.o
+ *fill*         0x00000000020020ee        0x2 
+ .text.vnorm    0x00000000020020f0       0xcc build-test/wf.o
+ .text.f_set_motion
+                0x00000000020021bc       0x40 build-test/wf.o
+ .text.fighter_advance
+                0x00000000020021fc       0x4c build-test/wf.o
+ .text.fighter_joints
+                0x0000000002002248      0x174 build-test/wf.o
+ .text.f_start_guard
+                0x00000000020023bc       0x18 build-test/wf.o
+ .text.in_start
+                0x00000000020023d4       0x48 build-test/wf.o
+ .text.in_reset
+                0x000000000200241c       0x38 build-test/wf.o
+ .text.frand01  0x0000000002002454       0x18 build-test/wf.o
+ .text.strip_byte
+                0x000000000200246c       0x68 build-test/wf.o
+ .text.draw_bigtext_centered.constprop.0
+                0x00000000020024d4       0x6c build-test/wf.o
+ .text.draw_seg.constprop.0
+                0x0000000002002540      0x144 build-test/wf.o
+ .text.try_move.constprop.0
+                0x0000000002002684       0x60 build-test/wf.o
+ .text.update_sparks.constprop.0
+                0x00000000020026e4       0x78 build-test/wf.o
+ .text.to_result.constprop.0
+                0x000000000200275c       0x64 build-test/wf.o
+ .text.new_fighters.constprop.0
+                0x00000000020027c0      0x110 build-test/wf.o
+ .text.to_title.constprop.0
+                0x00000000020028d0       0x44 build-test/wf.o
+ .text.finish_actions
+                0x0000000002002914       0x74 build-test/wf.o
+ .text.camera_space.constprop.0
+                0x0000000002002988       0x6c build-test/wf.o
+ .text.draw_stage.constprop.0
+                0x00000000020029f4      0x368 build-test/wf.o
+ .text.draw_fighter.constprop.0
+                0x0000000002002d5c      0x354 build-test/wf.o
+ .text.spawn_sparks.constprop.0
+                0x00000000020030b0      0x140 build-test/wf.o
+ .text.resolve_attack.constprop.0
+                0x00000000020031f0      0x208 build-test/wf.o
+ .text.wf_run   0x00000000020033f8      0xea0 build-test/wf.o
+                0x00000000020033f8                _wf_run
+ .text.startup.main
+                0x0000000002004298       0x34 build-test/main.o
+                0x0000000002004298                _main
+ .text.secondary
+                0x00000000020042cc        0xc build-test/main.o
+                0x00000000020042cc                _secondary
+ *(.gnu.linkonce.t.*)
+                0x00000000020042e0                . = ALIGN (0x10)
+ *fill*         0x00000000020042d8        0x8 
+                0x00000000020042e0                __INIT_SECTION__ = .
+ *(.init)
+                0x00000000020042e0        0x2 SHORT 0xb
+                0x00000000020042e2        0x2 SHORT 0x9
+                0x00000000020042f0                . = ALIGN (0x10)
+ *fill*         0x00000000020042e4        0xc 
+                0x00000000020042f0                __FINI_SECTION__ = .
+ *(.fini)
+                0x00000000020042f0        0x2 SHORT 0xb
+                0x00000000020042f2        0x2 SHORT 0x9
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ .eh_frame      0x00000000020042f4       0x70 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o)
+ .eh_frame      0x0000000002004364       0xa4 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivdi3.o)
+ *(.gcc_except_table)
+ *(.gcc_except_table.*)
+ *(.jcr)
+                0x0000000002004410                . = ALIGN (0x10)
+ *fill*         0x0000000002004408        0x8 
+                0x0000000002004410                __CTOR_LIST__ = .
+                0x0000000002004410                ___CTOR_LIST__ = .
+                0x0000000002004410        0x4 LONG 0x0 (((__CTOR_END__ - __CTOR_LIST__) / 0x4) - 0x2)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x0000000002004414        0x4 LONG 0x0
+                0x0000000002004418                __CTOR_END__ = .
+                0x0000000002004420                . = ALIGN (0x10)
+ *fill*         0x0000000002004418        0x8 
+                0x0000000002004420                __DTOR_LIST__ = .
+                0x0000000002004420                ___DTOR_LIST__ = .
+                0x0000000002004420        0x4 LONG 0x0 (((__DTOR_END__ - __DTOR_LIST__) / 0x4) - 0x2)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x0000000002004424        0x4 LONG 0x0
+                0x0000000002004428                __DTOR_END__ = .
+ *(.rdata)
+ *(.rodata)
+ .rodata        0x0000000002004428      0x100 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_clz.o)
+                0x0000000002004428                ___clz_tab
+ *(.rodata.*)
+ .rodata.notes.0
+                0x0000000002004528       0x10 build-test/sound.o
+ .rodata.semi.1
+                0x0000000002004538       0x30 build-test/sound.o
+ .rodata.wf_run.str1.4
+                0x0000000002004568       0x57 build-test/wf.o
+ *fill*         0x00000000020045bf        0x1 
+ .rodata.s.0    0x00000000020045c0       0x15 build-test/wf.o
+ *fill*         0x00000000020045d5        0x3 
+ .rodata.ctrl.1
+                0x00000000020045d8       0x26 build-test/wf.o
+ *fill*         0x00000000020045fe        0x2 
+ .rodata.press.2
+                0x0000000002004600       0x1a build-test/wf.o
+ *fill*         0x000000000200461a        0x2 
+ .rodata.grad.3
+                0x000000000200461c        0x7 build-test/wf.o
+ *fill*         0x0000000002004623        0x1 
+ .rodata.title.4
+                0x0000000002004624        0xa build-test/wf.o
+ *fill*         0x000000000200462e        0x2 
+ .rodata.grad_norm.5
+                0x0000000002004630        0x7 build-test/wf.o
+ *fill*         0x0000000002004637        0x1 
+ .rodata.grad_ko.6
+                0x0000000002004638        0x7 build-test/wf.o
+ *fill*         0x000000000200463f        0x1 
+ .rodata.s.7    0x0000000002004640       0x1c build-test/wf.o
+ .rodata.su_.8  0x000000000200465c        0x4 build-test/wf.o
+ .rodata.sr_.9  0x0000000002004660        0x4 build-test/wf.o
+ .rodata.REFX.10
+                0x0000000002004664        0xc build-test/wf.o
+ .rodata.REFY.11
+                0x0000000002004670        0xc build-test/wf.o
+ .rodata.UP.12  0x000000000200467c        0xc build-test/wf.o
+ .rodata.s.14   0x0000000002004688        0x7 build-test/wf.o
+ *fill*         0x000000000200468f        0x1 
+ .rodata.s.15   0x0000000002004690        0x5 build-test/wf.o
+ .rodata.wf_lines
+                0x0000000002004695        0x4 build-test/wf.o
+ *fill*         0x0000000002004699        0x3 
+ .rodata.wf_boxes
+                0x000000000200469c       0x68 build-test/wf.o
+ .rodata.wf_attacks
+                0x0000000002004704       0x48 build-test/wf.o
+ .rodata.wf_palette_rgb
+                0x000000000200474c      0x300 build-test/wf.o
+ *(.gnu.linkonce.r.*)
+                0x0000000002004a50                . = ALIGN (0x10)
+ *fill*         0x0000000002004a4c        0x4 
+                0x0000000002004a50                __text_end = .
+                0x0000000000004a50                __text_size = (__text_end - __text_start)
+
+.rela.dyn       0x0000000002004a50        0x0 load address 0x0000000000004a50
+ .rela.text     0x0000000002004a50        0x0 build-test/crt0.o
+
+.data           0x0000000006000000    0x12f90 load address 0x0000000000004a50
+                0x0000000006000000                __data_start = .
+ *(.data)
+ *(.data.*)
+ .data.mars_refresh_hz
+                0x0000000006000000        0x2 build-test/marsl.o
+                0x0000000006000000                _mars_refresh_hz
+ *fill*         0x0000000006000002        0x2 
+ .data.rng_state
+                0x0000000006000004        0x4 build-test/gfx.o
+ .data.wf_font7
+                0x0000000006000008      0x299 build-test/font.o
+                0x0000000006000008                _wf_font7
+ *fill*         0x00000000060002a1        0x3 
+ .data.wf_sin_tab
+                0x00000000060002a4     0x1400 build-test/sintab.o
+                0x00000000060002a4                _wf_sin_tab
+ .data.wf_motions
+                0x00000000060016a4       0x30 build-test/data.o
+                0x00000000060016a4                _wf_motions
+ .data.mot_ko   0x00000000060016d4     0x5dcc build-test/data.o
+ .data.mot_hit  0x00000000060074a0     0x1a6a build-test/data.o
+ .data.mot_guard
+                0x0000000006008f0a     0x1a6a build-test/data.o
+ .data.mot_kick
+                0x000000000600a974     0x28f8 build-test/data.o
+ .data.mot_jab  0x000000000600d26c     0x1da6 build-test/data.o
+ .data.mot_idle
+                0x000000000600f012     0x35e8 build-test/data.o
+ *fill*         0x00000000060125fa        0x2 
+ .data.song_fight
+                0x00000000060125fc       0x48 build-test/sound.o
+ .data.song_title
+                0x0000000006012644       0x48 build-test/sound.o
+ .data.pwm_center
+                0x000000000601268c        0x4 build-test/sound.o
+ .data.pwm_cycle
+                0x0000000006012690        0x4 build-test/sound.o
+ .data.wf_demo  0x0000000006012694       0xa8 build-test/wf.o
+ *(.gnu.linkonce.d.*)
+ *(.lit8)
+ *(.lit4)
+ *(.sdata)
+ *fill*         0x000000000601273c        0x4 
+ .sdata         0x0000000006012740      0x790 build-test/crt0.o
+                0x0000000006012e90                _fast_memcpy
+                0x0000000006012ea0                _CacheControl
+                0x0000000006012eb0                _SetSH2SR
+ .sdata         0x0000000006012ed0       0xc0 build-test/marsl.o
+                0x0000000006012ed0                _pri_vbi_handler
+                0x0000000006012f60                _pri_cmd_handler
+                0x0000000006012f70                _sec_cmd_handler
+                0x0000000006012f80                _sec_dma1_handler
+ *(.sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x0000000006012f90                . = ALIGN (0x10)
+                0x0000000006012f90                __data_end = .
+                0x0000000000012f90                __data_size = (__data_end - __data_start)
+
+.bss            0x0000000006012f90      0xa70 load address 0x00000000000179e0
+                0x0000000006012f90                __bss_start = .
+ *(.bss)
+ *(.bss.*)
+ .bss.mars_newpalette
+                0x0000000006012f90        0x4 build-test/marsl.o
+ .bss.mars_activescreen
+                0x0000000006012f94        0x2 build-test/marsl.o
+ .bss.mars_pad  0x0000000006012f96        0x4 build-test/marsl.o
+                0x0000000006012f96                _mars_pad
+ *fill*         0x0000000006012f9a        0x2 
+ .bss.mars_swdt_ovf_count
+                0x0000000006012f9c        0x4 build-test/marsl.o
+                0x0000000006012f9c                _mars_swdt_ovf_count
+ .bss.mars_pwdt_ovf_count
+                0x0000000006012fa0        0x4 build-test/marsl.o
+                0x0000000006012fa0                _mars_pwdt_ovf_count
+ .bss.mars_vblank_count
+                0x0000000006012fa4        0x4 build-test/marsl.o
+                0x0000000006012fa4                _mars_vblank_count
+ .bss.bgm       0x0000000006012fa8       0x38 build-test/sound.o
+ .bss.sfx       0x0000000006012fe0       0x60 build-test/sound.o
+ .bss.note_inc  0x0000000006013040      0x200 build-test/sound.o
+ .bss.acc.16    0x0000000006013240        0x4 build-test/wf.o
+ .bss.dbg_vb_anchor
+                0x0000000006013244        0x4 build-test/wf.o
+ .bss.wf_dbg_maxc
+                0x0000000006013248        0x4 build-test/wf.o
+                0x0000000006013248                _wf_dbg_maxc
+ .bss.wf_dbg_lines
+                0x000000000601324c        0x4 build-test/wf.o
+                0x000000000601324c                _wf_dbg_lines
+ .bss.wf_dbg_plots
+                0x0000000006013250        0x4 build-test/wf.o
+                0x0000000006013250                _wf_dbg_plots
+ .bss.G         0x0000000006013254      0x7a8 build-test/wf.o
+ *(.gnu.linkonce.b.*)
+ *(.sbss)
+ *(.sbss.*)
+ *(.gnu.linkonce.sb.*)
+ *(.scommon)
+ *(COMMON)
+                0x0000000006013a00                . = ALIGN (0x10)
+ *fill*         0x00000000060139fc        0x4 
+                0x0000000006013a00                end = .
+                0x0000000006013a00                _end = end
+                0x0000000006013a00                __end = _end
+                0x0000000006013a00                __bss_end = .
+                0x0000000000000a70                __bss_size = (__bss_end - __bss_start)
+OUTPUT(build-test/wirefight-test.elf elf32-sh)
+
+.comment        0x0000000000000000       0x12
+ .comment       0x0000000000000000       0x12 build-test/marsl.o
+                                         0x13 (size before relaxing)
+ .comment       0x0000000000000012       0x13 build-test/gfx.o
+ .comment       0x0000000000000012       0x13 build-test/font.o
+ .comment       0x0000000000000012       0x13 build-test/sintab.o
+ .comment       0x0000000000000012       0x13 build-test/data.o
+ .comment       0x0000000000000012       0x13 build-test/sound.o
+ .comment       0x0000000000000012       0x13 build-test/wf.o
+ .comment       0x0000000000000012       0x13 build-test/main.o
+ .comment       0x0000000000000012       0x13 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o)
+ .comment       0x0000000000000012       0x13 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000012       0x13 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_clz.o)
+
+.debug_info     0x0000000000000000      0x9fc
+ .debug_info    0x0000000000000000      0x4b0 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o)
+ .debug_info    0x00000000000004b0      0x482 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivdi3.o)
+ .debug_info    0x0000000000000932       0xca /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_clz.o)
+
+.debug_abbrev   0x0000000000000000      0x455
+ .debug_abbrev  0x0000000000000000      0x1ff /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o)
+ .debug_abbrev  0x00000000000001ff      0x1e6 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x00000000000003e5       0x70 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_clz.o)
+
+.debug_loclists
+                0x0000000000000000      0x90b
+ .debug_loclists
+                0x0000000000000000      0x3b3 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o)
+ .debug_loclists
+                0x00000000000003b3      0x558 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivdi3.o)
+
+.debug_aranges  0x0000000000000000       0x58
+ .debug_aranges
+                0x0000000000000000       0x20 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o)
+ .debug_aranges
+                0x0000000000000020       0x20 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x0000000000000040       0x18 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_clz.o)
+
+.debug_rnglists
+                0x0000000000000000       0xd9
+ .debug_rnglists
+                0x0000000000000000       0x6f /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o)
+ .debug_rnglists
+                0x000000000000006f       0x6a /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivdi3.o)
+
+.debug_line     0x0000000000000000      0x4a7
+ .debug_line    0x0000000000000000      0x23d /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o)
+ .debug_line    0x000000000000023d      0x218 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivdi3.o)
+ .debug_line    0x0000000000000455       0x52 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_clz.o)
+
+.debug_str      0x0000000000000000      0x21d
+ .debug_str     0x0000000000000000      0x1b4 /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_divdi3.o)
+                                        0x1f6 (size before relaxing)
+ .debug_str     0x00000000000001b4        0xa /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_udivdi3.o)
+                                        0x1f7 (size before relaxing)
+ .debug_str     0x00000000000001be       0x5f /tmp/toolchain/opt/toolchains/sega/sh-elf/bin/../lib/gcc/sh-elf/12.1.0/libgcc.a(_clz.o)
+                                        0x174 (size before relaxing)
