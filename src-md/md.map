@@ -1,0 +1,107 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000000880800 0x000000000007f800 xr
+ram              0x0000000000ff0000 0x0000000000010000 xw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD crt0.o
+LOAD main.o
+LOAD /tmp/toolchain/opt/toolchains/sega/m68k-elf/bin/../lib/gcc/m68k-elf/12.1.0/libgcc.a
+                0x0000000000000000                __DYNAMIC = 0x0
+                [!provide]                        PROVIDE (__stack = 0x1000000)
+
+.text           0x0000000000880800      0x260 load address 0x0000000000000000
+                0x0000000000880800                __text_start = .
+ *(.text)
+ .text          0x0000000000880800      0x104 crt0.o
+                0x0000000000880800                _start
+ .text          0x0000000000880904       0x9a main.o
+ *(.text.*)
+ .text.startup  0x000000000088099e       0x74 main.o
+                0x000000000088099e                main
+ *(.gnu.linkonce.t.*)
+                0x0000000000880a20                . = ALIGN (0x10)
+ *fill*         0x0000000000880a12        0xe 
+                0x0000000000880a20                __INIT_SECTION__ = .
+ *(.init)
+                0x0000000000880a20        0x2 SHORT 0x4e75
+                0x0000000000880a30                . = ALIGN (0x10)
+ *fill*         0x0000000000880a22        0xe 
+                0x0000000000880a30                __FINI_SECTION__ = .
+ *(.fini)
+                0x0000000000880a30        0x2 SHORT 0x4e75
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ *(.gcc_except_table)
+ *(.gcc_except_table.*)
+ *(.jcr)
+                0x0000000000880a40                . = ALIGN (0x10)
+ *fill*         0x0000000000880a32        0xe 
+                0x0000000000880a40                __CTOR_LIST__ = .
+                0x0000000000880a40                ___CTOR_LIST__ = .
+                0x0000000000880a40        0x4 LONG 0x0 (((__CTOR_END__ - __CTOR_LIST__) / 0x4) - 0x2)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x0000000000880a44        0x4 LONG 0x0
+                0x0000000000880a48                __CTOR_END__ = .
+                0x0000000000880a50                . = ALIGN (0x10)
+ *fill*         0x0000000000880a48        0x8 
+                0x0000000000880a50                __DTOR_LIST__ = .
+                0x0000000000880a50                ___DTOR_LIST__ = .
+                0x0000000000880a50        0x4 LONG 0x0 (((__DTOR_END__ - __DTOR_LIST__) / 0x4) - 0x2)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x0000000000880a54        0x4 LONG 0x0
+                0x0000000000880a58                __DTOR_END__ = .
+ *(.rdata)
+ *(.rodata)
+ *(.rodata.*)
+ *(.gnu.linkonce.r.*)
+                0x0000000000880a60                . = ALIGN (0x10)
+ *fill*         0x0000000000880a58        0x8 
+                0x0000000000880a60                __text_end = .
+                0x0000000000000260                __text_size = (__text_end - __text_start)
+
+.data           0x0000000000ff0000        0x0 load address 0x0000000000000260
+                0x0000000000ff0000                __data_start = .
+ *(.data)
+ .data          0x0000000000ff0000        0x0 crt0.o
+ .data          0x0000000000ff0000        0x0 main.o
+ *(.data.*)
+ *(.gnu.linkonce.d.*)
+ *(.lit8)
+ *(.lit4)
+ *(.sdata)
+ *(.sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x0000000000ff0000                . = ALIGN (0x8)
+                0x0000000000ff0000                __data_end = .
+                0x0000000000000000                __data_size = (__data_end - __data_start)
+
+.bss            0x0000000000ff0000        0x0 load address 0x0000000000000260
+                0x0000000000ff0000                __bss_start = .
+ *(.bss)
+ .bss           0x0000000000ff0000        0x0 crt0.o
+ .bss           0x0000000000ff0000        0x0 main.o
+ *(.bss.*)
+ *(.gnu.linkonce.b.*)
+ *(.sbss)
+ *(.sbss.*)
+ *(.gnu.linkonce.sb.*)
+ *(.scommon)
+ *(COMMON)
+                0x0000000000ff0000                . = ALIGN (0x8)
+                0x0000000000ff0000                end = .
+                0x0000000000ff0000                _end = end
+                0x0000000000ff0000                __end = _end
+                0x0000000000ff0000                __bss_end = .
+                0x0000000000000000                __bss_size = (__bss_end - __bss_start)
+OUTPUT(m68k.elf elf32-m68k)
+
+.comment        0x0000000000000000       0x12
+ .comment       0x0000000000000000       0x12 main.o
+                                         0x13 (size before relaxing)
